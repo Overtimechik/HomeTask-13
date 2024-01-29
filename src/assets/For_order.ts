@@ -3,7 +3,7 @@ import { Client } from "../models/order-types";
 import { Order } from "../models/order-types";
 //variables
 let min = 0
-let max = 4
+let max = 3
 let num_of_client = Math.floor(Math.random() * (max - min + 1) + min)
 let num_of_addres = Math.floor(Math.random() * (max - min + 1) + min)
 let num_of_order = Math.floor(Math.random() * (max - min + 1) + min)
